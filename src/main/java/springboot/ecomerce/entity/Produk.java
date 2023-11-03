@@ -18,7 +18,7 @@ public class Produk implements Serializable {
     private String id;
     @JoinColumn
     @ManyToOne
-    private Kategori id_kategori;
+    private Kategori kategori;
     private String nama;
     private String deskripsi;
     private String gambar;
